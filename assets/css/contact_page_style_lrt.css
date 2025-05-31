@@ -1,0 +1,35 @@
+.contact .contact-form .contact-btn {
+	margin: 0 0 0 auto;
+}
+
+.contact-details .contact-title {
+    font-family: "lvy-mode-r";
+}
+
+.page-links .page-link {
+	margin-left: 0;
+	margin-right: 16px;
+}
+
+.page-links .page-link .page-link-title {
+	margin-right: 0;
+	margin-left: 16px;
+}
+
+main .contact .contact-desc {
+	max-width: 100%;
+}
+
+.contact .logo-rakaiz-contact {
+	margin: 0 70px 0 auto;
+}
+
+@media (max-width: 1200px) {
+    main .contact .contact-desc {
+        max-width: 100%;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 215px;
+        margin: 0 0 0 auto;
+    }
+}

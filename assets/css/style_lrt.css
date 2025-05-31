@@ -1,0 +1,216 @@
+.header-content .header-title {
+    font-family: "lvy-mode-r";
+    max-width: 900px;
+}
+
+.offer-button {
+	width: 200px;
+}
+
+header #top-navbar .nav-link,
+.header-content .header-desc,
+main .sec_1 .section-desc-content,
+main .sec_2 .values-list .value-item .value-desc,
+main .contact .contact-form .input-layout,
+main .contact .contact-form .contact-btn {
+    font-family: "archia-r";
+}
+
+main .sec_1 .section-title,
+main .sec_1 .section-project .section-title-pro,
+main .sec_1 .section-project .project-card .project-content .project-title,
+main .sec_2 .values-list .value-item .value-title,
+main .partners .section-title,
+main .contact .contact-title,
+main .sec_1 .section-project .project-card .project-img .view-circle,
+main .contact .contact-desc {
+    font-family: "lvy-mode-r";
+}
+
+.offer-button {
+    font-family: "satoshi-m";
+}
+
+main .sec_1 .section-title {
+    max-width: 775px;
+}
+
+main .sec_1 .section-desc-content .link-section {
+	width: 200px;
+}
+
+main .sec_1 .section-project .section-title-pro {
+    max-width: 550px;
+}
+
+main .partners .section-title {
+    max-width: 450px;
+}
+
+main .contact .contact-form .input-layout {
+	text-align: left;
+}
+
+main .contact .contact-title {
+    max-width: 440px;
+    margin-bottom: 32px;
+}
+
+main .contact .logo-in-contact {
+	max-width: 242px;
+	height: 160px;
+	position: relative;
+	z-index: 100;
+}
+
+main .contact .contact-desc {
+    max-width: 605px;
+    font-size: 40px;
+    line-height: 54.5px;
+    margin: 10px 0 45px;
+}
+
+.contact .logo-rakaiz-contact {
+	max-width: 215px;
+	margin: 0 275px 0 auto;
+}
+
+.contact .contact-form {
+	padding: 64px 67px;
+}
+
+.contact .contact-form .radios .radio-label {
+	font-size: 16px;
+	margin-right: 0;
+}
+
+footer .bottom-footer .text-with-logo {
+	max-width: 455px;
+}
+
+footer .bottom-footer .terms-social {
+    width: 74.5%;
+}
+
+footer .bottom-footer .terms .t:first-child {
+    margin-left: 0;
+    margin-right: 110px;
+}
+
+footer .bottom-footer .text-rakaiz {
+    max-width: 325px;
+    margin-left: 8px;
+    font-size: 16px;
+    font-family: "jost-r" !important;
+    margin: 0 0 0 8px;
+}
+
+footer .bottom-footer .text-rakaiz::after {
+    content: none;
+}
+
+
+@media (max-width: 1081px) and (min-width: 992px) {
+    header #top-navbar .nav-link {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 992px) {
+    main .sec_1 .section-title {
+        font-size: 44px;
+        line-height: 57px;
+    }
+}
+
+@media (max-width: 1200px) {
+    main .contact .contact-form {
+        right: 0%;
+        left: auto;
+    }
+    .header-content .header-title {
+        font-size: 82px;
+    }
+    footer .bottom-footer {
+        flex-direction: column-reverse;
+    }
+    footer .bottom-footer .social-media .sm-content {
+        margin: 0 0 0 14px;
+    }
+    footer .bottom-footer .terms-social {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    main .contact .contact-title {
+        max-width: 100%;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 40%;
+        margin: 0 0 0 auto;
+    }
+    main .contact .contact-desc {
+        max-width: 100%;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 767px) {
+    main .contact .contact-title {
+        font-size: 52px;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 70px;
+    }
+    main .contact .contact-desc {
+        font-size: 32px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle .view-title {
+        font-size: 17px;
+    }
+    footer .bottom-footer .terms {
+        margin-top: 30px;
+    }
+    footer .bottom-footer .terms-social {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 576px) {
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 50px;
+    }
+    main .sec_2 .values-list .value-item .value-title {
+        font-size: 40px;
+    }
+    main .sec_2 .values-list .value-item .value-desc {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    main .contact .contact-title {
+        font-size: 33px;
+        line-height: 62px;
+    }
+    main .contact .contact-desc {
+        font-size: 27px;
+        line-height: 47px;
+        margin: 20px 0;
+    }
+    main .partners {
+        padding: 80px 0 265px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-content .header-title {
+        font-size: 27px !important;
+        line-height: 50px;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 30px;
+    }
+}

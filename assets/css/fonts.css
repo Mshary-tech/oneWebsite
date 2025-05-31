@@ -1,0 +1,47 @@
+/* @font-face {
+    font-family: "jazeera-light";
+    src: url(../fonts/Al-Jazeera-Arabic-Light.ttf);
+}
+@font-face {
+    font-family: "abd-elrady-regular";
+    src: url(../fonts/Abd-ElRady-Regular.otf);
+}
+@font-face {
+    font-family: "abd-elrady-pro-regular";
+    src: url(../fonts/Abd_ElRady_Pro_Regular.otf);
+} */
+
+@font-face {
+    font-family: "DIN-regular";
+    src: url(../fonts/DINNextLTArabic-Regular-4.ttf);
+}
+
+@font-face {
+    font-family: "lvy-mode-r";
+    src: url(../fonts/IvyMode-Regular.ttf);
+}
+
+@font-face {
+    font-family: "archia-r";
+    src: url(../fonts/Archia-Regular.otf);
+}
+
+@font-face {
+    font-family: "jost-r";
+    src: url(../fonts/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: "almarai-r";
+    src: url(../fonts/Almarai-Regular.ttf);
+}
+
+@font-face {
+    font-family: "satoshi-m";
+    src: url(../fonts/Satoshi-Medium.otf);
+}
+
+@font-face {
+    font-family: "abd-elradi-b";
+    src: url(../fonts/Abd-ElRady-Bold.otf);
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/mobile_sidebar.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact_page_style.css">
+    <link rel="icon" href="./assets/img/fav.ico" type="image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body dir="rtl" class="contact-page">
+    <!-- start header -->
+    <header>
+        <img class="img-bg" src="./assets/img/contact_bg.webp" alt="image">
+        <div class="overlay">
+            <div class="container long-container">
+                <nav id="top-navbar" class="top-nav navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a href="/" class="logo"><img src="./assets/img/svg/logo.svg" alt="logo" /></a>
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" id="open-mobile-side-panel">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./projects.html">المشاريع</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./contact-us.html">تواصل معنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link en-lang" href="./en/contact-us.html">En</a>
+                            </li>
+                        </ul>
+                        <a href="https://www.rakaezalinsha.com/register" class="offer-button">
+                            <span class="button-title">سجل إهتمامك</span>          
+                        </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="container long-container">
+                <div class="contact">
+                    <div class="page-links">
+                        <a href="./index.html" class="page-link">
+                            <img src="./assets/img/svg/home_icon.svg" alt="home icon">
+                            <h5 class="page-link-title">الرئيسية /</h5>
+                        </a>
+                        <a class="page-link-current">
+                            <h5 class="page-link-title">تواصل معنا</h5>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 mb-5 mb-xl-0">
+                            <div class="contact-details">                    
+                                <h3 class="contact-title">
+                                    <span class="title-color">يسعدنا</span> بكل رحابة <span class="title-color">خدمتكم</span> والرد على استفساركم
+                                </h3>
+                                <p class="contact-desc">
+                                    لا تتردد في التواصل معنا إذا كان لديك أي استفسار متعلق بشركتنا أو خدماتنا. سوف نبذل قصارى جهدنا للتواصل معك في أقرب وقت ممكن.
+                                </p>
+                                <ul class="contact-list">
+                                    <li class="list-item">
+                                        <h4 class="list-title">
+                                            عنوان:
+                                        </h4>
+                                        <div class="list-desc">
+                                            المملكة العربية السعودية ، الرياض ، حي الياسمين ، شارع الملك عبد العزيز
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <h4 class="list-title">
+                                            بريد إلكتروني:
+                                        </h4>
+                                        <div class="list-desc">
+                                            info@ounss.sa
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <h4 class="list-title">
+                                            هاتف:
+                                        </h4>
+                                        <div class="list-desc">
+                                            920035900
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <form class="contact-form form">
+                                <div class="input-content">
+                                    <label for="name">الإسم*</label>
+                                    <input type="text" name="name" class="form-control input-layout">
+                                </div>
+                                <div class="input-content">
+                                    <label for="phonenumber">رقم التواصل</label>
+                                    <input type="text" name="phonenumber"class="form-control input-layout" placeholder="1+">
+                                </div>
+                                <div class="input-content">
+                                    <label for="email">البريد الإلكترونى*</label>
+                                    <input type="email" name="email" class="form-control input-layout">
+                                </div>
+                                <div class="input-content">
+                                    <label for="contact-type">التواصل كـ*</label>
+                                    <div class="radios">
+                                        <div>
+                                            <input type="radio" value="client" name="contact-type" id="client">
+                                            <label class="radio-label" for="client">عميل</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" value="service-provider" name="contact-type" id="service-provider">
+                                            <label class="radio-label" for="service-provider">مزود خدمة</label>
+                                        </div>
+                                        <div class="last-radio">
+                                            <input type="radio" value="landlubber" name="contact-type" id="landlubber">
+                                            <label class="radio-label" for="landlubber">مالك أرض</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" value="contractor" name="contact-type" id="contractor">
+                                            <label class="radio-label" for="contractor">مقاول</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" value="architect-interior-designer" name="contact-type" id="architect-interior-designer">
+                                            <label class="radio-label" for="architect-interior-designer">معماري/ مصمم داخلي</label>
+                                        </div>
+                                        <div class="last-radio">
+                                            <input type="radio" value="Looking-job" name="contact-type" id="Looking-job">
+                                            <label class="radio-label" for="Looking-job">باحث عن وظيفة</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-content">
+                                    <label for="subject">الموضوع*</label>
+                                    <input type="text" name="subject" class="form-control input-layout">
+                                </div>
+                                <div class="input-content">
+                                    <label for="userMsg">الرسالة*</label>
+                                    <textarea class="input-layout msg-contact" name="userMsg" cols="30" rows="10"></textarea>
+                                </div>
+                                <button class="btn contact-btn">إرسال</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- start main -->
+    <main>
+        <div class="contact">
+            <div class="container long-container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 mb-5 mb-xl-0">
+                        <div class="contact-content">
+                            <div class="logo-in-contact"><img src="./assets/img/svg/logo.svg" alt="logo"></div>
+                            <h5 class="contact-desc">
+                                أحد مشاريع ركائز الانشاء تتفرع منها العديد من المشاريع المميزة
+                            </h5>
+                            <div class="logo-rakaiz-contact"><img src="./assets/img/svg/rakaiz_logo_contact.svg" alt="logo"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1280.1939718093188!2d46.637395746110705!3d24.831884259529218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee59b94bc091f%3A0x712a679a41374979!2z2LTYsdmD2Kkg2LHZg9in2KbYsiDYp9mE2KXZhti02KfYoSDZhNmE2KrYt9mI2YrYsSDYp9mE2LnZgtin2LHZig!5e0!3m2!1sen!2ssa!4v1691955060700!5m2!1sen!2ssa" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container long-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="logo-content mb-5 mb-lg-0"><img src="./assets/img/svg/logo_darkmode.svg" alt="logo"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="footer-content">
+                                <h5 class="footer-title">
+                                    عنوان:
+                                </h5>
+                                <h6 class="footer-desc">
+                                    المملكة العربية السعودية ، الرياض ، حي الياسمين ، شارع الملك عبد العزيز
+                                </h6>
+                            </div>
+                            <div class="footer-content">
+                                <h5 class="footer-title">
+                                    هاتف:
+                                </h5>
+                                <h6 class="footer-desc">
+                                    920035900
+                                </h6>
+                            </div>
+                            <div class="footer-content">
+                                <h5 class="footer-title">
+                                    بريد إلكتروني:
+                                </h5>
+                                <h6 class="footer-desc">
+                                    info@ounss.sa
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="social-media">
+                    <h3 class="sm-title">تابعنا على :</h3>
+                    <div class="sm-content">
+                        <a href="https://www.instagram.com/rakaezalinsha" target="_blank" class="smedia-icon"><img src="./assets/img/svg/in.svg" alt="icon"></a>
+                        <a href="https://wtspee.com/966920035900" target="_blank" class="smedia-icon"><img src="./assets/img/svg/whatsapp.svg" alt="icon"></a>
+                        <a href="https://twitter.com/rakaezalinsha?s=21&t=HHUfa0fHN4l3i7q9GKgXwA" target="_blank" class="smedia-icon"><img src="./assets/img/svg/twitter.svg" alt="icon"></a>
+                    </div>
+                </div>
+                
+                <div class="terms-social">
+                    <div class="text-with-logo">
+                        <h4 class="text-rakaiz">
+                            أُنس علامة تجارية مملوكة لشركة
+                        </h4>
+                        <div class="rakaiz-logo"><img src="./assets/img/svg/rakaiz_logo_contact.svg" alt="logo"></div>
+                    </div>
+                    <div class="terms">
+                        <a class="t" href="#">سياسة الخصوصية</a>
+                        <a class="t" href="#">أحكام وشروط</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Mobile slidebar Section -->
+    <div id="mobile-side-panel-overlay"></div>
+    <div id="mobile-sidebar" class="mobile-side-panel">
+        <div id="panel-close"><img src="../assets/img/svg/close.svg" alt="icon" /></div>
+
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0" id="mobile-panel-navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="/">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./projects.html">المشاريع</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./contact-us.html">تواصل معنا</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link en-lang" href="./en/contact-us.html">En</a>
+            </li>
+        </ul>
+
+        <a href="https://www.rakaezalinsha.com/register" class="offer-button">
+            <span class="button-title">سجل إهتمامك</span>          
+        </a>
+    </div>
+
+    <!-- Jquery -->
+    <script src="./assets/js/jquery_3_6_3.js"></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        // init Swiper
+        const swiper = new Swiper('.swiper', {
+            allowTouchMove: true,
+            centeredSlides: true,
+            preventClicks: true,
+            // preventClicksPropagation: true,
+            // noSwiping: true,
+            // noSwipingSelector: 'project-card',
+            // slideToClickedSlide: false,
+            navigation: {
+                nextEl: '.project-card'
+            },
+            initialSlide: 1,
+            speed: 1000,
+            breakpoints: {
+                0: {
+                    slidesPerView: 2,
+                    spaceBetween: 12,
+                },
+                430: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                990: {
+                    slidesPerView: 2,
+                    spaceBetween: 25,
+                },
+                1350: {
+                    slidesPerView: 3,
+                    spaceBetween: 25,
+                },
+            },
+            pagination: { el: '.swiper-pagination', clickable: true }
+        });
+        swiper.changeLanguageDirection('rtl')
+    </script>
+
+    <!-- Mobile slidebar Script -->
+    <script src="./assets/js/mobileSidebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.projects .project-card .project-card-header .logo-with-text {
+	align-items: start;
+}
+
+.projects .project-card .project-card-body .icons-list {
+	padding: 0;
+}
+
+.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+	font-size: 11px;
+}
+
+.projects .project-card .project-card-body .icons-list .icon-with-text:not(:last-child)::after {
+	left: -5px;
+}
+
+.page-links .page-link {
+	margin-left: 0;
+	margin-right: 16px;
+}
+
+.page-links .page-link .page-link-title {
+	margin-right: 0;
+	margin-left: 16px;
+}
+
+@media (max-width: 1490px) {
+	.projects .project-card .project-card-header .logo-with-text .project-logo-name {
+		font-size: 30px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.projects .project-card .project-card-body {
+		padding: 20px;
+	}
+
+	.projects .project-card .project-card-body .project-title {
+		font-size: 34px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text:not(:last-child)::after {
+		left: -3px;
+	}
+}
+
+@media (max-width: 1281px) {
+	.projects .project-card .project-card-body .project-title {
+		font-size: 30px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+		font-size: 7px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.projects .project-card .project-card-body .project-title {
+		font-size: 34px;
+		margin-bottom: 24px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 992px) {
+	.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 767px) {
+	.projects .project-card .project-card-body {
+		padding: 24px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text:not(:last-child)::after {
+		left: -24px;
+	}
+}
+
+@media (max-width: 460px) {
+	.projects .project-card .project-card-body {
+		padding: 18px;
+	}
+
+	.projects .project-card .project-card-body .project-title {
+		font-size: 30px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text:not(:last-child)::after {
+		left: -7px;
+	}
+
+	.projects .project-card .project-card-body .icons-list .icon-with-text .text {
+		font-size: 7px;
+	}
+}

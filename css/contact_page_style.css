@@ -1,0 +1,316 @@
+header {
+    padding: 0
+}
+
+header #top-navbar {
+	padding: 37px 20px 35px;
+}
+
+.contact {
+    padding: 32px 25px 70px;
+}
+
+main .contact::after {
+    content: none;
+}
+
+main .contact::before {
+    content: none;
+}
+
+.contact-details {
+    padding: 0 24px;
+}
+
+.contact-details .contact-title {
+    font-size: 36px;
+    max-width: 470px;
+    margin-bottom: 34px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #1F4C50;
+}
+
+.contact-details .contact-desc {
+    max-width: 680px;
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: #4C4C4C;
+}
+
+.contact-details .contact-list {
+    padding: 0;
+    list-style: none;
+    color: #121212;
+}
+
+.contact-details .contact-list .list-item {
+    margin-bottom: 24px;
+}
+
+.contact-details .contact-list .list-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.contact-details .contact-list .list-desc {
+    font-size: 20px;
+    max-width: 377px;
+}
+
+.contact .contact-form {
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto 0 0;
+}
+
+.contact .contact-form .input-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-form .input-content label {
+    font-size: 18px;
+    color: #212529;
+}
+
+.contact .contact-form .input-layout {
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    color: #212529;
+    font-size: 16px;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+    max-width: 620px;
+}
+
+.contact .contact-form .input-layout::placeholder {
+    color: #212529;
+}
+
+.contact .contact-form .msg-contact {
+    height: 140px;
+}
+
+.contact .contact-form .radios {
+	color: #212529;
+	margin-bottom: 24px;
+	max-width: 620px;
+	width: 100%;
+}
+
+.contact .contact-form .radios .last-radio {
+	width: 76%;
+	margin-right: 80px;
+}
+
+.contact .contact-form .contact-btn {
+    width: 100%;
+    max-width: 620px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 4.8px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F4C50;
+    color: #FFFFFF;
+    border-radius: 0;
+    margin: 0 auto 0 0;
+}
+
+main .contact .logo-in-contact {
+    width: 268px;
+    height: 160px;
+}
+
+main .contact .contact-desc {
+    font-size: 40px;
+    line-height: 71px;
+    max-width: 535px;
+}
+
+.contact .logo-rakaiz-contact {
+	max-width: 215px;
+}
+
+.contact .logo-rakaiz-contact img {
+	width: 100%;
+}
+
+main .contact {
+    background-color: #FFFFFF;
+    padding: 104px 0;
+}
+
+main .contact .contact-title {
+    margin-bottom: 75px;
+}
+
+main .google-map {
+    max-width: 888px;
+    height: 420px;
+    margin: 0 auto 0 0;
+}
+
+@media (min-width: 1840px)
+{
+    .contact .logo-rakaiz-contact {
+        margin: 0 auto 0 130px;
+    }
+}
+
+@media (max-width: 1840px) and (min-width: 1200px)
+{
+    .contact .contact-form .input-layout,
+    .contact .contact-form .radios,
+    .contact .contact-form .contact-btn {
+        max-width: 475px;
+    }
+    .contact .contact-form .radios .last-radio {
+        margin-right: 34px;
+    }
+    .contact .contact-form .radios .radio-label {
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 1490px) and (min-width: 1200px)
+{
+    .contact .contact-form .input-layout,
+    .contact .contact-form .radios,
+    .contact .contact-form .contact-btn {
+        max-width: 400px;
+    }
+    .contact .contact-form .radios .radio-label {
+        margin-right: 3px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1200px)
+{
+    .contact .contact-form .input-layout, .contact .contact-form .radios, .contact .contact-form .contact-btn {
+        max-width: 360px;
+    }
+    .contact .contact-form .radios .radio-label {
+        margin-right: -1px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    header #top-navbar {
+        padding: 30px 0;
+    }
+    .contact-details {
+        padding: 0;
+    }
+    header .img-bg {
+        height: 112%;
+        top: -11%;
+        object-fit: cover;
+    }
+    .contact .contact-form {
+        left: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+    }
+    main .google-map {
+        max-width: 100%;
+        height: 420px;
+    }
+}
+
+@media (max-width: 991px) {
+    .contact-details {
+        padding: 0;
+    }
+    .contact {
+        padding: 70px 0;
+    }
+    .contact .contact-form .input-layout,
+    .contact .contact-form .radios,
+    .contact .contact-form .contact-btn {
+        max-width: 530px;
+    }
+    .contact .contact-form .radios .last-radio {
+        margin-right: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact .contact-form .input-layout,
+    .contact .contact-form .radios,
+    .contact .contact-form .contact-btn {
+        max-width: 100%;
+    }
+    .contact .contact-form .input-content {
+        flex-direction: column;
+    }
+    .contact .contact-form .input-content label {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        padding: 64px 10px;
+    }
+    .contact-details .contact-title {
+        font-size: 30px;
+    }
+    .contact-details .contact-desc {
+        font-size: 19px;
+    }
+    .contact-details .contact-list .list-title {
+        font-size: 26px;
+    }
+    .contact-details .contact-list .list-desc {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .contact .contact-form .radios {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 50px;
+    }
+    .contact .contact-form .radios .last-radio {
+        margin-right: 0;
+        width: 100%;
+    }
+    .contact .contact-form .radios .radio-label {
+        margin-bottom: 5px;
+    }
+    main .contact .logo-in-contact {
+        width: 270px;
+        height: auto;
+    }
+    main .contact .contact-desc {
+        font-size: 30px;
+        line-height: 52px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 420px)
+{
+    .contact .contact-form .radios .radio-label {
+        font-size: 14px;
+        margin-right: 6px;
+    }
+    .contact .contact-form {
+        padding: 5px !important;
+    }
+    .contact .contact-form .radios {
+        column-gap: 25px;
+    }
+    main .google-map {
+        height: 250px;
+    }
+}

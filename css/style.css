@@ -1,0 +1,1474 @@
+html, body {
+    overflow-x: hidden;
+    font-family: "DIN-regular";
+}
+
+p {
+    text-align: justify;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.en-lang {
+    font-family: "archia-r" !important;
+}
+
+.ar-lang {
+    font-family: "DIN-regular" !important;
+}
+
+.options-button {
+    max-width: 300px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 13px 0 20px;
+    margin: 30px auto 0;
+    color: #FFFFFF;
+    background-color: #092A32;
+}
+/* #last-item{ */
+    /* justify-content: center !important; */
+/* } */
+.options-button:hover {
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-size: 64px;
+    /* font-family: "abd-elrady-regular"; */
+    max-width: 532px;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+
+.title-color {
+    color: #D0A860;
+}
+
+.green-color {
+    color: #1F4C50;
+}
+
+.section-desc-content {
+    max-width: 620px;
+    font-size: 18px;
+    /* font-family: "abd-elrady-pro-regular"; */
+    line-height: 42px;
+}
+
+header {
+    background-color: #214D50;
+    position: relative;
+    padding-bottom: 160px;
+}
+
+header .logo {
+    width: 135px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header .img-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header .overlay {
+    position: relative;
+    z-index: 1;
+}
+
+header #top-navbar {
+    padding: 40px 20px;
+}
+
+header #top-navbar .navbar-nav {
+    width: 100%;
+    max-width: 550px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header #top-navbar .nav-link {
+    color: rgba(31, 76, 80, 0.6);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header #top-navbar .nav-link.active {
+    color: #1F4C50;
+}
+
+.page-links {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.page-links a {
+    color: #1F4C50;
+    text-decoration: none;
+}
+
+.page-links .page-link-title {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.page-links .page-link {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.page-links .page-link .page-link-title {
+    margin-right: 16px;
+}
+
+.offer-button {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #092A32;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.offer-button .button-title {
+    color: #EAEAE7;
+    font-size: 18px;
+    /* font-family: "abd-elrady-regular"; */
+}
+
+.logo-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.logo-with-text .logo-content {
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+.logo-with-text .logo-content img {
+    width: 100%;
+}
+
+.logo-with-text .project-logo-name {
+    font-size: 40px;
+    color: #D0A860;
+    line-height: 30px;
+}
+
+#mobile-sidebar .offer-button {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    margin-top: 30px;
+}
+
+header .header-content {
+    text-align: center;
+    margin-top: 150px;
+    color: #092A32;
+}
+
+.header-content .img-title {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+}
+
+.header-content .header-title {
+    font-size: 64px;
+    line-height: 82px;
+    margin: 0 auto;
+}
+
+.header-content .img-title .img-content {
+    width: 150px;
+    height: 50px;
+}
+
+.header-content .img-title .img-content img {
+    width: 100%;
+}
+
+.header-content .header-title2 {
+    font-size: 48px;
+    line-height: 82px;
+    margin: 0 auto 64px;
+    max-width: 740px;
+}
+
+.header-content .header-desc {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 509px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header .img-scroll {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    bottom: -80px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+header .img-scroll .word {
+    text-decoration: none;
+    font-size: 18px;
+    /* color: #D9D9D9; */
+    color: #002029;
+    position: absolute;
+    bottom: -80px;
+    right: 50%;
+    transform: translate(50%, 0);
+}
+
+header .img-scroll img {
+    width: 100%;
+}
+
+/* main */
+main .header-img {
+    width: 100%;
+}
+
+main .header-img img {
+    width: 100%;
+}
+
+#future .section-title {
+    font-size: 62px;
+    line-height: 83px;
+    max-width: 959px;
+}
+main .img-slide .project-img img {
+    width: fit-content !important;
+    height: fit-content !important;
+}
+#future .section-desc {
+    font-size: 18px;
+    line-height: 58px;
+    max-width: 547px;
+    margin: 0 auto 0 0;
+}
+
+main .sec_1 {
+    padding: 145px 0 100px;
+    color: #EAEAE7;;
+}
+
+main .sec_1 .section-hint {
+    width: 115px;
+    font-size: 18px;
+    line-height: 24px;
+    /* font-family: "abd-elrady-regular"; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EAEAE7;
+    color: #BC9C5F;
+    margin-bottom: 42px;
+}
+
+main .sec_1 .section-desc-content .section-desc:first-child {
+    margin-bottom: 32px;
+}
+
+main .sec_1 .section-desc-content .link-section {
+	color: #BC9C5F;
+	text-decoration: underline;
+	margin: 56px auto 0 0;
+	width: 120px;
+	display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+main .sec_1 .section-project {
+    margin-top: 375px;
+}
+
+main .sec_1 .section-project .section-title-pro {
+    font-size: 120px;
+    text-align: center;
+    /* font-family: "abd-elrady-regular"; */
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+main .sec_1 .section-project .carousel-content {
+    margin-top: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+main .sec_1 .section-project .project-card {
+    text-align: center;
+    width: 100%;
+    max-width: 620px;
+}
+
+main .sec_1 .section-project .project-card .project-img {
+    width: 100%;
+    height: 560px;
+    background-color: #D9D9D9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    transition: all 0.6s ease;
+    padding: 0 50px;
+}
+
+main .sec_1 .section-project .project-card .project-img .overlay-click {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+main .sec_1 .section-project .carousel-content .swiper-slide {
+    display: flex;
+    justify-content: center;
+    transition: all 0.6s ease;
+}
+
+main .sec_1 .section-project .carousel-content .swiper-slide-active {
+    transform: translateY(-22.5%);
+}
+
+main .sec_1 .section-project .carousel-content .swiper-slide-active .project-card .project-img {
+    height: 760px;
+}
+
+main .sec_1 .section-project .project-card .project-img .img-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main .sec_1 .section-project .project-card .project-img .view-circle {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    width: 214px;
+    height: 214px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    color: #002029;
+    /* font-family: "abd-elrady-regular"; */
+    font-size: 24px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+main .sec_1 .section-project .swiper-slide-active .project-card .project-img .view-circle {
+    opacity: 1;
+    cursor: pointer;
+}
+
+main .sec_1 .section-project .project-card .project-img .logo-with-text {
+    position: relative;
+    transition: all 0.6s ease;
+    width: 310px;
+}
+
+main .sec_1 .section-project .project-card .project-img .logo-with-text .logo-content {
+    width: 100%;
+}
+
+main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text {
+    width: 430px;
+}
+
+main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text .logo-content {
+    width: 100%;
+}
+
+main .sec_1 .section-project .project-card .project-img .logo-with-text .project-logo-name {
+    transition: all 0.6s ease;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text .project-logo-name {
+    font-size: 64px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+main .sec_1 .section-project .project-card .project-img .logo-with-text img {
+    width: 100%;
+}
+
+main .sec_1 .section-project .project-card .project-content .project-title {
+    font-size: 40px;
+    /* font-family: "abd-elrady-regular"; */
+    color: #EAEAE7;
+}
+
+main .sec_1 .section-project .project-card .project-content .line {
+    margin: 7px 0 4px;
+}
+
+main .sec_1 .section-project .project-card .project-content .project-count {
+    font-size: 18px;
+    /* font-family: "abd-elrady-regular"; */
+}
+
+main .sec_1 .section-project .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #2D3739;
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+main .sec_1 .section-project .swiper-pagination-bullet-active {
+    width: 25px;
+    background-color: #EAEAE7;
+    border-radius: 5px;
+}
+
+/* section 2 */
+main .sec_2 {
+    padding: 173px 0;
+    background-color: #EAEAE7;
+}
+
+main .sec_2 .section-hint {
+    font-size: 18px;
+    /* font-family: "abd-elrady-regular"; */
+    width: 140px;
+    text-align: center;
+    color: #D0A860;
+    border-bottom: 1px solid #D0A860;
+    padding-bottom: 10px;
+}
+
+main .sec_2 .values-list {
+    margin-top: 130px;
+}
+
+main .sec_2 .values-list .value-item:not(:last-child) {
+    border-bottom: 0.3px solid #112023;
+}
+
+
+main .sec_2 .values-list .value-item {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px 40px 10px;
+    color: #032833;
+    transition: all 0.5s ease;
+    opacity: 0.2;
+}
+
+main .sec_2 .values-list .value-item:hover {
+    opacity: 1;
+}
+
+main .sec_2 .values-list .value-item .value-title {
+    font-size: 64px;
+    /* font-family: "abd-elrady-regular"; */
+}
+
+main .sec_2 .values-list .value-item .value-img {
+	width: 272px;
+	height: 318px;
+	position: absolute;
+	right: 48%;
+	transform: translateX(50%);
+    transition: all 0.5s ease;
+    opacity: 0;
+	top: -10%;
+}
+
+main .sec_2 .values-list .value-item:hover .value-img {
+    opacity: 1;
+}
+
+main .sec_2 .value-img img {
+    width: 100%;
+}
+
+main .sec_2 .values-list .value-item .value-desc {
+    font-size: 24px;
+    line-height: 40px;
+    /* font-family: "abd-elrady-pro-regular"; */
+    max-width: 390px;
+}
+
+main .partners {
+    padding: 125px 0 230px;
+}
+
+main .partners .section-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    margin: 0 auto 88px;
+    max-width: 157px;
+    text-align: center;
+}
+
+main .partners .logos-content {
+	display: grid;
+    justify-items: center;
+	grid-template-columns: repeat(4, 1fr);
+    row-gap: 80px;
+}
+
+main .partners .logos-content.warranties-logo {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+main .partners .logos-content .p-logo {
+    width: 100%;
+    text-align: center;
+}
+
+main .partners .logos-content .p-logo .image-title {
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 37px;
+    margin-top: 10px;
+	text-align: center;
+}
+
+main .partners .logos-content .p-logo {
+	max-width: 110px;
+}
+
+main .partners .logos-content.warranties-logo .p-logo {
+	max-width: 180px;
+}
+
+main .partners .logos-content .p-logo img {
+	width: 100%;
+    height: auto;
+}
+
+main .partners .logos-content.warranties-logo .p-logo img {
+	width: 60%;
+    height: 55%;
+}
+
+main .contact {
+    padding: 230px 0 132px;
+    position: relative;
+    background-color: #EAEAE7;
+}
+
+main .contact .section-title {
+	font-size: 96px;
+    line-height: 147px;
+	margin: 0 auto 180px;
+	max-width: 1290px;
+	text-align: center;
+}
+
+/* main .contact::after {
+	content: "";
+	background-image: url(../img/svg/Ellipse_contact.svg);
+	background-repeat: no-repeat;
+	top: 60px;
+	right: -260px;
+	position: absolute;
+	width: 390px;
+	height: 390px;
+	z-index: 0;
+}
+
+main .contact::before {
+	content: "";
+	background-image: url(../img/svg/Ellipse_contact.svg);
+	background-repeat: no-repeat;
+	bottom: 290px;
+	left: -280px;
+	position: absolute;
+	width: 390px;
+	height: 390px;
+	z-index: 0;
+} */
+
+main .contact .analays {
+    width: 1063px;
+    padding: 32px 0;
+    right: 50%;
+    top: -15%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    z-index: 40;
+    background-color: #F0EDE4;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 20px 26px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+main .contact .analays .analy-hint {
+    font-size: 22px;
+    line-height: 150%;
+    color: #D0A860;
+}
+
+main .contact .analays .analy-amount {
+    font-size: 64px;
+    line-height: 125%;
+    color: #1C2F34;
+}
+
+main .contact .analays .analy-text {
+    font-size: 22px;
+    line-height: 150%;
+    color: #1C2F34;
+}
+
+/* main .contact .contact-title {
+    max-width: 440px;
+    color: #112023;
+    font-size: 80px;
+    line-height: 84px;
+    margin-bottom: 115px;
+} */
+
+main .contact .logo-in-contact {
+    max-width: 410px;
+    height: 246px;
+    position: relative;
+    z-index: 100;
+}
+
+main .contact .logo-in-contact img {
+    width: 100%;
+}
+
+main .contact .contact-desc {
+	max-width: 100%;
+	margin: 36px 0 0;
+	font-size: 40px;
+	line-height: 79px;
+	color: #66807E;
+	position: relative;
+	z-index: 100;
+}
+
+.contact .logo-rakaiz-contact {
+    max-width: 345px;
+    margin: 0 auto 0 0;
+}
+
+.contact .contact-form {
+	position: absolute;
+	width: 770px;
+	background-color: #1F4C50;
+	padding: 64px 94px;
+	margin: 0 10px;
+    z-index: 100;
+}
+
+.contact .contact-form .input-layout::placeholder {
+    color: #CCCCCC !important;
+}
+
+.contact .contact-form .input-layout {
+    background-color: transparent;
+    border: 0.5px solid #D9D9D9;
+    padding: 20px 30px;
+    border-radius: 0;
+    color: #CCCCCC;
+    font-size: 18px;
+    /* font-family: "abd-elrady-pro-regular"; */
+    text-align: right;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.contact .contact-form .msg-contact {
+    height: 218px;
+}
+
+.contact .contact-form .radio-title {
+    color: #CCCCCC;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.contact .contact-form .radios {
+	margin-bottom: 36px;
+    color: #D9D9D9;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.contact .contact-form .last-radio {
+    width: 76%;
+    margin-right: 40px;
+}
+
+.contact .contact-form .radios .radio-label {
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.contact .contact-form .contact-btn {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    /* font-family: "abd-elrady-pro-regular"; */
+    color: #112023;
+}
+
+.contact .contact-form .input-layout:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+main .sec_1 {
+    background-color: #214D50;
+    background-image: url(../img/svg/Noise.svg);
+}
+
+main .partners,
+footer,
+main .green-bg {
+    background-color: #214D50;
+    background-image: url(../img/svg/Noise.svg);
+}
+
+footer {
+    padding: 50px 0 110px;
+    /* font-family: "abd-elrady-regular"; */
+    color: #FFFFFF;
+}
+
+footer .footer-title {
+    font-size: 22px;
+}
+
+footer .footer-title .icon-content {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+footer .footer-title .icon-content img {
+    width: 100%;
+}
+
+footer .footer-desc {
+    font-size: 18px;
+    width: 253px;
+    line-height: 36px;
+    margin: 8px 0 40px;
+}
+
+
+footer .bottom-footer {
+	padding-top: 25px;
+	border-top: 0.3px solid #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .bottom-footer .rakaiz-logo {
+    max-width: 106px;
+}
+
+footer .bottom-footer .rakaiz-logo img {
+    width: 100%;
+}
+
+footer .bottom-footer .text-with-logo {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .bottom-footer .text-rakaiz {
+    position: relative;
+    font-size: 16px;
+    line-height: 125%;
+    margin-left: 25px;
+}
+
+footer .bottom-footer .text-rakaiz::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -12px;
+    height: 43px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+footer .bottom-footer .terms-social {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .bottom-footer .social-media {
+    display: flex;
+    align-items: center;
+}
+
+footer .bottom-footer .social-media .sm-content {
+    width: 114px;
+    margin: 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-footer .social-media .sm-title {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+footer .bottom-footer .terms {
+    display: flex;
+}
+
+footer .bottom-footer .terms .t {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .bottom-footer .terms .t:first-child {
+    margin-left: 110px;
+}
+
+footer .logo-content {
+    max-width: 350px;
+}
+
+footer .logo-content img {
+    width: 100%;
+}
+
+/* media */
+@media (min-width: 1840px) {
+    .long-container {
+        max-width: 1620px;
+    }
+}
+
+@media (max-width: 1490px) and (min-width: 1400px) {
+    .long-container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1200px) {
+    .long-container {
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 992px) {
+    .long-container {
+        max-width: 900px;
+    }
+    header #top-navbar .navbar-nav {
+        max-width: 495px;
+    }
+}
+
+@media (max-width: 1540px) {
+    .header-content .img-title {
+        max-width: 1140px;
+        margin: 0 auto 42px;
+    }
+    .header-content .header-title {
+        font-size: 54px;
+    }
+    #future .section-title {
+        font-size: 50px;
+    }
+    #future .section-desc {
+        font-size: 17px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1490px) and (min-width: 1200px) {
+    .contact .contact-form {
+        width: 50%;
+        margin-left: 20px;
+        padding: 62px 64px;
+        left: 0;
+    }
+    .contact-page .contact .contact-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .contact .contact-form {
+        padding: 64px;
+    }
+    main .sec_2 .values-list .value-item {
+        padding: 40px 10px 40px 10px;
+    }
+    main .sec_2 .values-list .value-item .value-img {
+        width: 230px;
+        height: 300px;
+        right: 47%;
+    }
+}
+
+@media (max-width: 1299px) {
+    .header-content .img-title {
+        max-width: 1000px;
+    }
+    .header-content .header-title {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 1200px) {
+    header .logo {
+        width: 110px;
+    }
+    .header-content .img-title {
+        max-width: 800px;
+        margin: 0 auto 35px;
+    }
+    .header-content .header-title {
+        font-size: 36px;
+    }
+    .header-content .img-title .img-content {
+        width: 120px;
+    }
+    .header-content .header-title2 {
+        font-size: 37px;
+        line-height: 70px;
+        max-width: 630px;
+    }
+    #future .section-desc {
+        font-size: 18px;
+        line-height: 50px;
+        margin-top: 45px;
+    }
+    .offer-button {
+        width: 160px;
+        padding: 17px 0;
+    }
+    main .sec_2 .value-img {
+        display: none;
+    }
+    main .partners .logos-content,
+    main .partners .logos-content.warranties-logo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .contact .contact-form {
+        max-width: 570px;
+        left: 3%;
+    }
+    main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text {
+        width: 380px;
+    }
+    main .contact .section-title {
+        font-size: 86px;
+        line-height: 120px;
+        margin: 0 auto 140px;
+        max-width: 100%;
+    }
+    .contact .contact-form {
+        position: relative;
+        max-width: 100%;
+        left: 0;
+        margin: 50px auto 0;
+    }
+    footer .bottom-footer .terms-social {
+        width: 70%;
+    }
+    footer .bottom-footer .terms .t:first-child {
+        margin-left: 50px;
+    }
+    footer {
+        padding: 50px 0 100px;
+    }
+}
+
+@media (max-width: 1100px) {
+    main .contact .analays {
+        width: 95%;
+    }
+    main .contact .contact-title {
+        font-size: 67px;
+        line-height: 77px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        padding-bottom: 100px;
+    }
+    header .header-content {
+        margin-top: 85px;
+    }
+    .header-content .img-title {
+        flex-direction: column-reverse;
+    }
+    header #top-navbar {
+        padding: 24px 20px;
+    }
+    .header-content .img-title {
+        max-width: 100%;
+    }
+    .header-content .header-title {
+        font-size: 46px;
+        line-height: 80px;
+    }
+    header .img-bg {
+        object-fit: cover;
+    }
+    main .sec_1 .section-title {
+        margin-bottom: 50px;
+    }
+    main .sec_2 .values-list .value-item {
+        align-items: start;
+        padding: 20px 10px;
+        flex-direction: column;
+        opacity: 1;
+    }
+    main .sec_2 .values-list .value-item .value-title {
+        margin-bottom: 25px;
+    }
+    main .partners .logos-content,
+    main .partners .logos-content.warranties-logo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    main .contact .contact-title {
+        max-width: 444px;
+        font-size: 67px;
+        margin-bottom: 64px;
+    }
+    main .contact .contact-desc {
+        max-width: 100%;
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active {
+        transform: translateY(-15%);
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active .project-card .project-img {
+        height: 680px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle {
+        width: 180px;
+        height: 180px;
+    }
+    main .contact .section-title {
+        font-size: 72px;
+        line-height: 110px;
+    }
+    main .contact .analays {
+        top: -7%;
+    }
+    main .contact .analays .analy-amount {
+        font-size: 55px;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 290px;
+    }
+    footer .bottom-footer {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    footer .bottom-footer .terms-social {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    main .sec_1 .section-title {
+        font-size: 52px;
+        line-height: 72px;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 85px;
+    }
+    main .sec_1 .section-project .carousel-content {
+        margin-top: 150px;
+    }
+    main .sec_1 .section-project .project-card .project-img {
+        height: 450px;
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active .project-card .project-img {
+        height: 550px;
+        padding: 0 40px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle {
+        width: 120px;
+        height: 120px;
+    }
+    main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text {
+        width: 350px;
+    }
+    main .sec_1 .section-project .project-card .project-img .logo-with-text .project-logo-name {
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text .project-logo-name {
+        font-size: 25px;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+    main .partners {
+        padding: 80px 0 230px;
+    }
+    main .partners .logos-content,
+    main .partners .logos-content.warranties-logo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main .contact .logo-in-contact {
+        max-width: 300px;
+        height: auto;
+    }
+    main .contact .contact-desc {
+        font-size: 37px;
+        line-height: 67px;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 230px;
+    }
+    .contact .logo-rakaiz-contact img {
+        width: 100%;
+    }
+    .contact .contact-form {
+        padding: 40px !important;
+    }
+    .contact .contact-form .radios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact .contact-form .last-radio {
+        width: 100%;
+        margin-right: 0;
+    }
+    .contact .contact-form .contact-btn {
+        margin-top: 30px;
+    }
+    main .contact .analays .analy-hint
+    main .contact .analays .analy-text {
+        font-size: 19px;
+    }
+    main .contact .analays .analy-amount {
+        font-size: 44px;
+    }
+    footer .logo-content {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding-bottom: 70px;
+    }
+    header .img-bg {
+        height: 110%;
+    }
+    header .header-content {
+        margin-top: 50px;
+    }
+    header .img-scroll {
+        z-index: 40;
+    }
+    main {
+        position: relative;
+    }
+    header #top-navbar {
+        padding: 16px 6px;
+    }
+    .header-content .img-title {
+        margin: 0 auto 24px;
+    }
+    .header-content .header-title {
+        font-size: 28px;
+        line-height: 55px;
+    }
+    .header-content .header-title2 {
+        font-size: 22px;
+        line-height: 50px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .header-content .header-desc {
+        font-size: 16px;
+    }
+    header .img-scroll {
+        width: 90px;
+        height: 90px;
+        bottom: -45px;
+    }
+    main .sec_1 {
+        padding: 80px 0 100px;
+    }
+    main .sec_1 .section-title {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 45px;
+    }
+    #future .section-title {
+        font-size: 36px;
+        line-height: 64px;
+        margin-bottom: 0;
+    }
+    #future .section-desc {
+        font-size: 17px;
+        line-height: 44px;
+        margin-top: 45px;
+    }
+    main .sec_1 .section-project {
+        margin-top: 180px;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 65px;
+    }
+    main .sec_1 .section-project .carousel-content {
+        margin-top: 80px;
+    }
+    main .sec_1 .section-project .project-card {
+        max-width: 340px;
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active {
+        transform: translateY(-10%);
+    }
+    main .sec_1 .section-project .project-card .project-img {
+        height: 350px;
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active .project-card .project-img {
+        height: 400px;
+        padding: 0 30px;
+    }
+    main .sec_1 .section-project .project-card .project-img .logo-with-text {
+        width: 220px;
+        margin-bottom: 45px;
+    }
+    main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text {
+        width: 220px;
+        margin-bottom: 45px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle {
+        width: 80px;
+        height: 80px;
+        bottom: 35px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle .view-title {
+        font-size: 14px !important;
+    }
+    main .sec_1 .section-project .project-card .project-content .project-title {
+        font-size: 30px;
+    }
+    main .sec_1 .section-project .project-card .project-content .project-count {
+        font-size: 16px;
+    }
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -7%;
+    }
+    main .sec_1 .section-project .project-card .project-img .logo-with-text .project-logo-name {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    
+    main .sec_1 .section-project .swiper-slide-active .project-card .project-img .logo-with-text .project-logo-name {
+        font-size: 20px;
+        line-height: 1px;
+        margin-top: 5px;
+    }
+    main .sec_2 {
+        padding: 90px 0 60px;
+    }
+    main .sec_2 .values-list {
+        margin-top: 35px;
+    }
+    main .sec_2 .values-list .value-item .value-title {
+        font-size: 52px;
+    }
+    main .sec_2 .values-list .value-item .value-desc {
+        font-size: 23px;
+    }
+    main .partners {
+        padding: 80px 0 330px;
+    }
+    main .partners .section-title,
+    main .contact .section-title {
+        font-size: 57px !important;
+        line-height: 75px;
+        max-width: 100%;
+    }
+    main .contact .logo-in-contact {
+        max-width: 200px;
+    }
+    main .contact .contact-title {
+        max-width: 100%;
+        font-size: 52px;
+        line-height: 74px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    main .contact .contact-desc {
+        max-width: 75%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 35px auto;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 175px;
+    }
+    main .contact {
+        padding: 330px 0 132px;
+    }
+    main .contact .analays {
+        top: -21%;
+    }
+    main .contact .analays {
+        flex-direction: column;
+    }
+    main .contact .analays .analy:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 50px 0 70px;
+    }
+    footer .bottom-footer {
+        flex-direction: column;
+    }
+    footer .logo-content {
+        max-width: 200px;
+    }
+    footer .bottom-footer .terms-social {
+        margin-top: 30px;
+    }
+    footer .bottom-footer .text-with-logo {
+        margin-top: 20px;
+    }
+    footer .bottom-footer .terms-social {
+        flex-direction: column-reverse;
+    }
+    footer .bottom-footer .social-media .sm-content {
+        margin: 0 14px 0 0;
+    }
+}
+
+@media (max-width: 460px) {
+    main .partners .logos-content .p-logo {
+        width: 145px;
+    }
+    main .partners .logos-content .p-logo img {
+        width: 90%;
+        height: 75%;
+    }
+}
+
+@media (max-width: 420px) {
+    main .contact .contact-title {
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .contact .contact-form {
+        padding: 44px 37px !important;
+    }
+    .contact .contact-form .input-layout {
+        padding: 15px 20px;
+    }
+    .contact .contact-form .contact-btn {
+        margin-top: 24px;
+        width: 100%;
+    }
+    main .sec_1 .section-project .section-title-pro {
+        font-size: 45px;
+    }
+    main .sec_1 .section-project .project-card .project-img {
+        height: 303px;
+    }
+    main .sec_1 .section-project .carousel-content .swiper-slide-active .project-card .project-img {
+        height: 350px;
+        padding: 0 23px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle {
+        width: 70px;
+        height: 70px;
+        bottom: 37px;
+    }
+    main .sec_1 .section-project .project-card .project-img .view-circle .view-title {
+        font-size: 12px !important;
+    }
+    main .sec_1 .section-project .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+    }
+    main .sec_1 .section-project .swiper-pagination-bullet-active {
+        width: 15px;
+    }
+    main .partners .logos-content {
+        column-gap: 42px;
+    }
+    main .contact .logo-in-contact {
+        max-width: 160px;
+    }
+    main .contact .contact-desc {
+        max-width: 100%;
+    }
+    main .partners .section-title,
+    main .contact .section-title {
+        font-size: 44px !important;
+        line-height: 70px;
+        margin-bottom: 30px;
+    }
+    .contact .logo-rakaiz-contact {
+        max-width: 150px;
+    }
+    .contact .contact-form .radios .radio-label {
+        font-size: 13px;
+        margin-right: 3px;
+    }
+}
